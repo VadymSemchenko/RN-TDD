@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest tests/**/*.spec.js"
+    "test": "jest tests/**/*.spec.js",
+    "detox": "concurrently \"yarn:start\" \"detox test\""
   },
   "dependencies": {
     "babel-core": "^7.0.0-bridge.0",
