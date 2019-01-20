@@ -1,0 +1,4 @@
+#Sun Jan 20 20:54:04 EET 2019
+base.0=/Users/vadym/Documents/work/study/RN/tdd/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
