@@ -11,9 +11,9 @@ dependencies: \
   /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/React/Base/RCTFrameUpdate.h \
   /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/React/Base/RCTInvalidating.h \
   /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/React/Views/ScrollView/RCTScrollableProtocol.h \
-  /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/React/Views/RCTComponent.h \
   /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/React/Views/RCTView.h \
   /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/React/Views/RCTComponent.h \
   /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/React/Views/RCTPointerEvents.h \
   /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/React/Base/RCTConvert.h \
   /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/React/Views/RCTAnimationType.h \

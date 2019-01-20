@@ -1,11 +1,11 @@
 dependencies: \
   /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/Libraries/Text/Text/RCTTextView.m \
   /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/Libraries/Text/Text/RCTTextView.h \
-  /Users/vadym/Documents/work/study/RN/tdd/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
   /Users/vadym/Documents/work/study/RN/tdd/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
   /Users/vadym/Documents/work/study/RN/tdd/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
   /Users/vadym/Documents/work/study/RN/tdd/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
   /Users/vadym/Documents/work/study/RN/tdd/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/vadym/Documents/work/study/RN/tdd/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
   /Users/vadym/Documents/work/study/RN/tdd/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
   /Users/vadym/Documents/work/study/RN/tdd/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
   /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/Libraries/Text/Text/RCTTextShadowView.h \

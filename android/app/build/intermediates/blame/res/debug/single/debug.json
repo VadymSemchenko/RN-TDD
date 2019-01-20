@@ -13,7 +13,7 @@
     },
     {
         "merged": "/Users/vadym/Documents/work/study/RN/tdd/android/app/build/intermediates/res/merged/debug/anim_catalyst_fade_out.xml.flat",
-        "source": "/Users/vadym/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/7b7d5dd1df32c0e1bb5f61815cde0047/res/anim/catalyst_fade_out.xml"
+        "source": "/Users/vadym/.gradle/caches/transforms-1/files-1.1/react-native-0.56.1.aar/258f772207e5692a011e5411a6d9b095/res/anim/catalyst_fade_out.xml"
     },
     {
         "merged": "/Users/vadym/Documents/work/study/RN/tdd/android/app/build/intermediates/res/merged/debug/layout_abc_popup_menu_item_layout.xml.flat",
@@ -285,7 +285,7 @@
     },
     {
         "merged": "/Users/vadym/Documents/work/study/RN/tdd/android/app/build/intermediates/res/merged/debug/xml_preferences.xml.flat",
-        "source": "/Users/vadym/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/7b7d5dd1df32c0e1bb5f61815cde0047/res/xml/preferences.xml"
+        "source": "/Users/vadym/.gradle/caches/transforms-1/files-1.1/react-native-0.56.1.aar/258f772207e5692a011e5411a6d9b095/res/xml/preferences.xml"
     },
     {
         "merged": "/Users/vadym/Documents/work/study/RN/tdd/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -353,7 +353,7 @@
     },
     {
         "merged": "/Users/vadym/Documents/work/study/RN/tdd/android/app/build/intermediates/res/merged/debug/layout_redbox_view.xml.flat",
-        "source": "/Users/vadym/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/7b7d5dd1df32c0e1bb5f61815cde0047/res/layout/redbox_view.xml"
+        "source": "/Users/vadym/.gradle/caches/transforms-1/files-1.1/react-native-0.56.1.aar/258f772207e5692a011e5411a6d9b095/res/layout/redbox_view.xml"
     },
     {
         "merged": "/Users/vadym/Documents/work/study/RN/tdd/android/app/build/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",
@@ -745,7 +745,7 @@
     },
     {
         "merged": "/Users/vadym/Documents/work/study/RN/tdd/android/app/build/intermediates/res/merged/debug/layout_redbox_item_title.xml.flat",
-        "source": "/Users/vadym/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/7b7d5dd1df32c0e1bb5f61815cde0047/res/layout/redbox_item_title.xml"
+        "source": "/Users/vadym/.gradle/caches/transforms-1/files-1.1/react-native-0.56.1.aar/258f772207e5692a011e5411a6d9b095/res/layout/redbox_item_title.xml"
     },
     {
         "merged": "/Users/vadym/Documents/work/study/RN/tdd/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
@@ -765,7 +765,7 @@
     },
     {
         "merged": "/Users/vadym/Documents/work/study/RN/tdd/android/app/build/intermediates/res/merged/debug/layout_redbox_item_frame.xml.flat",
-        "source": "/Users/vadym/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/7b7d5dd1df32c0e1bb5f61815cde0047/res/layout/redbox_item_frame.xml"
+        "source": "/Users/vadym/.gradle/caches/transforms-1/files-1.1/react-native-0.56.1.aar/258f772207e5692a011e5411a6d9b095/res/layout/redbox_item_frame.xml"
     },
     {
         "merged": "/Users/vadym/Documents/work/study/RN/tdd/android/app/build/intermediates/res/merged/debug/layout_abc_activity_chooser_view_list_item.xml.flat",
@@ -845,7 +845,7 @@
     },
     {
         "merged": "/Users/vadym/Documents/work/study/RN/tdd/android/app/build/intermediates/res/merged/debug/anim_catalyst_slide_up.xml.flat",
-        "source": "/Users/vadym/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/7b7d5dd1df32c0e1bb5f61815cde0047/res/anim/catalyst_slide_up.xml"
+        "source": "/Users/vadym/.gradle/caches/transforms-1/files-1.1/react-native-0.56.1.aar/258f772207e5692a011e5411a6d9b095/res/anim/catalyst_slide_up.xml"
     },
     {
         "merged": "/Users/vadym/Documents/work/study/RN/tdd/android/app/build/intermediates/res/merged/debug/drawable_abc_btn_check_material.xml.flat",
@@ -881,7 +881,7 @@
     },
     {
         "merged": "/Users/vadym/Documents/work/study/RN/tdd/android/app/build/intermediates/res/merged/debug/anim_catalyst_slide_down.xml.flat",
-        "source": "/Users/vadym/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/7b7d5dd1df32c0e1bb5f61815cde0047/res/anim/catalyst_slide_down.xml"
+        "source": "/Users/vadym/.gradle/caches/transforms-1/files-1.1/react-native-0.56.1.aar/258f772207e5692a011e5411a6d9b095/res/anim/catalyst_slide_down.xml"
     },
     {
         "merged": "/Users/vadym/Documents/work/study/RN/tdd/android/app/build/intermediates/res/merged/debug/layout-v21_notification_action.xml.flat",
@@ -1045,7 +1045,7 @@
     },
     {
         "merged": "/Users/vadym/Documents/work/study/RN/tdd/android/app/build/intermediates/res/merged/debug/layout_dev_loading_view.xml.flat",
-        "source": "/Users/vadym/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/7b7d5dd1df32c0e1bb5f61815cde0047/res/layout/dev_loading_view.xml"
+        "source": "/Users/vadym/.gradle/caches/transforms-1/files-1.1/react-native-0.56.1.aar/258f772207e5692a011e5411a6d9b095/res/layout/dev_loading_view.xml"
     },
     {
         "merged": "/Users/vadym/Documents/work/study/RN/tdd/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
@@ -1089,7 +1089,7 @@
     },
     {
         "merged": "/Users/vadym/Documents/work/study/RN/tdd/android/app/build/intermediates/res/merged/debug/anim_catalyst_push_up_out.xml.flat",
-        "source": "/Users/vadym/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/7b7d5dd1df32c0e1bb5f61815cde0047/res/anim/catalyst_push_up_out.xml"
+        "source": "/Users/vadym/.gradle/caches/transforms-1/files-1.1/react-native-0.56.1.aar/258f772207e5692a011e5411a6d9b095/res/anim/catalyst_push_up_out.xml"
     },
     {
         "merged": "/Users/vadym/Documents/work/study/RN/tdd/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_black_36dp.png.flat",
@@ -1101,7 +1101,7 @@
     },
     {
         "merged": "/Users/vadym/Documents/work/study/RN/tdd/android/app/build/intermediates/res/merged/debug/anim_catalyst_fade_in.xml.flat",
-        "source": "/Users/vadym/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/7b7d5dd1df32c0e1bb5f61815cde0047/res/anim/catalyst_fade_in.xml"
+        "source": "/Users/vadym/.gradle/caches/transforms-1/files-1.1/react-native-0.56.1.aar/258f772207e5692a011e5411a6d9b095/res/anim/catalyst_fade_in.xml"
     },
     {
         "merged": "/Users/vadym/Documents/work/study/RN/tdd/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
@@ -1433,7 +1433,7 @@
     },
     {
         "merged": "/Users/vadym/Documents/work/study/RN/tdd/android/app/build/intermediates/res/merged/debug/layout_fps_view.xml.flat",
-        "source": "/Users/vadym/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/7b7d5dd1df32c0e1bb5f61815cde0047/res/layout/fps_view.xml"
+        "source": "/Users/vadym/.gradle/caches/transforms-1/files-1.1/react-native-0.56.1.aar/258f772207e5692a011e5411a6d9b095/res/layout/fps_view.xml"
     },
     {
         "merged": "/Users/vadym/Documents/work/study/RN/tdd/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -1549,7 +1549,7 @@
     },
     {
         "merged": "/Users/vadym/Documents/work/study/RN/tdd/android/app/build/intermediates/res/merged/debug/anim_catalyst_push_up_in.xml.flat",
-        "source": "/Users/vadym/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/7b7d5dd1df32c0e1bb5f61815cde0047/res/anim/catalyst_push_up_in.xml"
+        "source": "/Users/vadym/.gradle/caches/transforms-1/files-1.1/react-native-0.56.1.aar/258f772207e5692a011e5411a6d9b095/res/anim/catalyst_push_up_in.xml"
     },
     {
         "merged": "/Users/vadym/Documents/work/study/RN/tdd/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat",

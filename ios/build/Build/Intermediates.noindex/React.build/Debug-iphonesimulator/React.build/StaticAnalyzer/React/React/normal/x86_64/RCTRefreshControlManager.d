@@ -23,5 +23,4 @@ dependencies: \
   /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/React/Base/RCTInvalidating.h \
   /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/React/Views/UIView+React.h \
   /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/React/Views/RCTComponent.h \
-  /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/React/Views/RCTRefreshControl.h \
-  /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/React/Views/ScrollView/RCTScrollableProtocol.h
+  /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/React/Views/RCTRefreshControl.h

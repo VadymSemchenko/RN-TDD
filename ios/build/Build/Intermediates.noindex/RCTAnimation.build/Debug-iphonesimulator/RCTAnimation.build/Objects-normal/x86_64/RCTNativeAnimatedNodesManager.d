@@ -1,6 +1,8 @@
 dependencies: \
   /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/Libraries/NativeAnimation/RCTNativeAnimatedNodesManager.m \
   /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/Libraries/NativeAnimation/RCTNativeAnimatedNodesManager.h \
+  /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTValueAnimatedNode.h \
+  /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTAnimatedNode.h \
   /Users/vadym/Documents/work/study/RN/tdd/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
   /Users/vadym/Documents/work/study/RN/tdd/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
   /Users/vadym/Documents/work/study/RN/tdd/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUIManager.h \
@@ -26,8 +28,6 @@ dependencies: \
   /Users/vadym/Documents/work/study/RN/tdd/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
   /Users/vadym/Documents/work/study/RN/tdd/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
   /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTAdditionAnimatedNode.h \
-  /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTValueAnimatedNode.h \
-  /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTAnimatedNode.h \
   /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/Libraries/NativeAnimation/Drivers/RCTAnimationDriver.h \
   /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTDiffClampAnimatedNode.h \
   /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTDivisionAnimatedNode.h \

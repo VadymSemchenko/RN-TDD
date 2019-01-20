@@ -341,9 +341,9 @@ dependencies: \
   /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/promote.hpp \
   /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/third-party/folly-2016.10.31.00/folly/portability/Constexpr.h \
   /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/third-party/folly-2016.10.31.00/folly/portability/String.h \
-  /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/third-party/glog-0.3.5/src/glog/logging.h \
-  /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/third-party/glog-0.3.5/src/glog/log_severity.h \
-  /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/third-party/glog-0.3.5/src/glog/vlog_is_on.h \
+  /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/third-party/glog-0.3.4/src/glog/logging.h \
+  /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/third-party/glog-0.3.4/src/glog/log_severity.h \
+  /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/third-party/glog-0.3.4/src/glog/vlog_is_on.h \
   /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/third-party/folly-2016.10.31.00/folly/CpuId.h \
   /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/third-party/folly-2016.10.31.00/folly/detail/RangeCommon.h \
   /Users/vadym/Documents/work/study/RN/tdd/node_modules/react-native/third-party/folly-2016.10.31.00/folly/detail/RangeSse42.h \
