@@ -2,4 +2,9 @@ import React from "react";
 import { Text } from "react-native";
 import { shallow } from "enzyme";
 
-describe("Text");
+describe("Text", () => {
+  it("renders text", () => {
+    const wrapper = shallow(<Text>Hello</Text>);
+    expect(wrapper.text()).toEqual("Hello");
+  });
+});
