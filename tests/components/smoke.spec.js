@@ -1,3 +1,5 @@
+/* eslint-env detox/detox, jest */
+
 import React from "react";
 import { Text } from "react-native";
 import { shallow } from "enzyme";

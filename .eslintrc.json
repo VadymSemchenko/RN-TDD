@@ -3,8 +3,16 @@
   "parser": "babel-eslint",
   "plugins": ["prettier", "detox", "jest"],
   "rules": {
-    "prettier/prettier": ["error"]
+    "prettier/prettier": ["error"],
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ]
   },
-  "detox/detox": true,
-  "jest/globals": true
+  "env": {
+    "detox/detox": true,
+    "jest/globals": true
+  }
 }
