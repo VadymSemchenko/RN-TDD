@@ -4,6 +4,7 @@
   "plugins": ["prettier", "detox", "jest"],
   "rules": {
     "prettier/prettier": ["error"],
+    "react/prefer-stateless-function": false,
     "react/jsx-filename-extension": [
       1,
       {

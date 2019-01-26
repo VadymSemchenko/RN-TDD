@@ -16,4 +16,5 @@ beforeEach(async () => {
 afterAll(async () => {
   await adapter.afterAll();
   await detox.cleanup();
+  await device.terminateApp();
 });
