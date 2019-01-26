@@ -1,12 +1,12 @@
 /* eslint-env detox/detox, jest */
 
-import React from "react";
-import { Text } from "react-native";
-import { shallow } from "enzyme";
+import React from 'react';
+import { Text } from 'react-native';
+import { shallow } from 'enzyme';
 
-describe("Text", () => {
-  it("renders text", () => {
+describe('Text', () => {
+  it('renders text', () => {
     const wrapper = shallow(<Text>Hello</Text>);
-    expect(wrapper.text()).toEqual("Hello");
+    expect(wrapper.text()).toEqual('Hello');
   });
 });
