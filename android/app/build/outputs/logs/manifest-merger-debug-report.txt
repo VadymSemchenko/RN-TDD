@@ -1,0 +1,209 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:1:1-27:12
+MERGED from [com.facebook.react:react-native:0.56.1] /Users/vadym/.gradle/caches/transforms-1/files-1.1/react-native-0.56.1.aar/05d2106c8bd3e35eb1f2965f1c85b2a0/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/3572bd46a23120da9bd400af16160a7e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/a4bb8815755d84dfa14d6c276ab98562/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/b295d8ee9e914919124c2b33024be7af/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/b14d79795aa5e31ba2809a3b5e9fc0ea/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/5eb3ee9cf1c2c74fa5fe98d82e6784fc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/35e906547b73d8a0176fe9b72013e2a7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/a8917c449ec1f6f2f10b0f8de1c0bdd4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/dffb415f6705865eea09ea6ec76e5853/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/51b2fb4f0f22d47453d708cecfbffe6e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/6769e93d46cf655eaeb8266231425619/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/bfa2798200630763a225b4a85ea3d408/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/20979c00484bdf9877dc14d254ae64c8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/9ea7aed00c471e35259f0ff56df71acb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/6fd876c19e6486abe78a1420511a9efb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e8bf1bbda05e3c967291dfa42fec264b/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/7d916ba0367b95246ecf5e8ac43412c0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/7b3f49d912c3df5f49f98d52738567b0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/vadym/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c74b1ec8ecca6e4513ef11e440e890ac/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/a0cce9ada10233a195a631e9f6f8ef57/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/16d567affde1dd733c7c807f7ba173ac/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/e702cd715c6cbf3a8722806ad1612afc/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/vadym/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/adeb0bdec4c2a36f41810e8750985be8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/vadym/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/02545833383491f34bc117e7a46beefe/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/vadym/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/4fe8424f5cae64623eabe51e50d804c0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/vadym/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/04ab2d0e3fffd52141111997b4e3e2fc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/d24ebbfb34d94bbb093a5d63a77c203a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/bf49ca519d21458fb1d034d286493601/AndroidManifest.xml:10:1-18:12
+MERGED from [com.facebook.fresco:fresco:1.9.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/fresco-1.9.0.aar/c45791f187ff080613fc5c11c2362c4b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.9.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.9.0.aar/a101317b5025e2a0dd2eca8f151bca7d/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.9.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/drawee-1.9.0.aar/259c8fbea061b23c1e5a7f5b3521132b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.9.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.9.0.aar/5306850639c4ba6fe5a1cddf8c86a577/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.9.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.9.0.aar/407459cdcc96b6bb042ee830a5ef36ba/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.3.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/soloader-0.3.0.aar/f9c82a2be49e7dda4c2c15a5507cd5bf/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r174650] /Users/vadym/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/3fd932c6d30d7aca2280a8c3db7c0b3a/AndroidManifest.xml:1:1-3:12
+MERGED from [com.facebook.fresco:fbcore:1.9.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/fbcore-1.9.0.aar/7225ed72867676f26eb6e3cdbe0f1ff5/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:1:1-27:12
+	package
+		ADDED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:2:5-22
+		INJECTED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:1:1-27:12
+		INJECTED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:1:1-27:12
+		INJECTED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.56.1] /Users/vadym/.gradle/caches/transforms-1/files-1.1/react-native-0.56.1.aar/05d2106c8bd3e35eb1f2965f1c85b2a0/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.56.1] /Users/vadym/.gradle/caches/transforms-1/files-1.1/react-native-0.56.1.aar/05d2106c8bd3e35eb1f2965f1c85b2a0/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:5:22-75
+application
+ADDED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:7:5-25:19
+MERGED from [com.facebook.react:react-native:0.56.1] /Users/vadym/.gradle/caches/transforms-1/files-1.1/react-native-0.56.1.aar/05d2106c8bd3e35eb1f2965f1c85b2a0/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.56.1] /Users/vadym/.gradle/caches/transforms-1/files-1.1/react-native-0.56.1.aar/05d2106c8bd3e35eb1f2965f1c85b2a0/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e8bf1bbda05e3c967291dfa42fec264b/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e8bf1bbda05e3c967291dfa42fec264b/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/7d916ba0367b95246ecf5e8ac43412c0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/7d916ba0367b95246ecf5e8ac43412c0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.facebook.soloader:soloader:0.3.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/soloader-0.3.0.aar/f9c82a2be49e7dda4c2c15a5507cd5bf/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.3.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/soloader-0.3.0.aar/f9c82a2be49e7dda4c2c15a5507cd5bf/AndroidManifest.xml:11:5-20
+MERGED from [org.webkit:android-jsc:r174650] /Users/vadym/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/3fd932c6d30d7aca2280a8c3db7c0b3a/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/vadym/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/3fd932c6d30d7aca2280a8c3db7c0b3a/AndroidManifest.xml:2:3-17
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e8bf1bbda05e3c967291dfa42fec264b/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:9:7-39
+	android:roundIcon
+		ADDED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:11:7-52
+	android:icon
+		ADDED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:10:7-41
+	android:allowBackup
+		ADDED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:12:7-34
+	android:theme
+		ADDED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:13:7-38
+	android:name
+		ADDED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:8:7-38
+activity#com.tdd.MainActivity
+ADDED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:14:7-23:18
+	android:label
+		ADDED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:16:9-41
+	android:windowSoftInputMode
+		ADDED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:18:9-51
+	android:configChanges
+		ADDED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:17:9-79
+	android:name
+		ADDED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:15:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:19:9-22:25
+action#android.intent.action.MAIN
+ADDED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:20:13-65
+	android:name
+		ADDED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:20:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:21:13-73
+	android:name
+		ADDED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:21:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:24:7-84
+	android:name
+		ADDED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:24:17-81
+uses-sdk
+INJECTED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml
+MERGED from [com.facebook.react:react-native:0.56.1] /Users/vadym/.gradle/caches/transforms-1/files-1.1/react-native-0.56.1.aar/05d2106c8bd3e35eb1f2965f1c85b2a0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.56.1] /Users/vadym/.gradle/caches/transforms-1/files-1.1/react-native-0.56.1.aar/05d2106c8bd3e35eb1f2965f1c85b2a0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/3572bd46a23120da9bd400af16160a7e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/3572bd46a23120da9bd400af16160a7e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/a4bb8815755d84dfa14d6c276ab98562/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/a4bb8815755d84dfa14d6c276ab98562/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/b295d8ee9e914919124c2b33024be7af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/b295d8ee9e914919124c2b33024be7af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/b14d79795aa5e31ba2809a3b5e9fc0ea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/b14d79795aa5e31ba2809a3b5e9fc0ea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/5eb3ee9cf1c2c74fa5fe98d82e6784fc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/5eb3ee9cf1c2c74fa5fe98d82e6784fc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/35e906547b73d8a0176fe9b72013e2a7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/35e906547b73d8a0176fe9b72013e2a7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/a8917c449ec1f6f2f10b0f8de1c0bdd4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/a8917c449ec1f6f2f10b0f8de1c0bdd4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/dffb415f6705865eea09ea6ec76e5853/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/dffb415f6705865eea09ea6ec76e5853/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/51b2fb4f0f22d47453d708cecfbffe6e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/51b2fb4f0f22d47453d708cecfbffe6e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/6769e93d46cf655eaeb8266231425619/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/6769e93d46cf655eaeb8266231425619/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/bfa2798200630763a225b4a85ea3d408/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/bfa2798200630763a225b4a85ea3d408/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/20979c00484bdf9877dc14d254ae64c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/20979c00484bdf9877dc14d254ae64c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/9ea7aed00c471e35259f0ff56df71acb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/9ea7aed00c471e35259f0ff56df71acb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/6fd876c19e6486abe78a1420511a9efb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/6fd876c19e6486abe78a1420511a9efb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e8bf1bbda05e3c967291dfa42fec264b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e8bf1bbda05e3c967291dfa42fec264b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/7d916ba0367b95246ecf5e8ac43412c0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/7d916ba0367b95246ecf5e8ac43412c0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/7b3f49d912c3df5f49f98d52738567b0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/7b3f49d912c3df5f49f98d52738567b0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/vadym/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c74b1ec8ecca6e4513ef11e440e890ac/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/vadym/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c74b1ec8ecca6e4513ef11e440e890ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/a0cce9ada10233a195a631e9f6f8ef57/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/a0cce9ada10233a195a631e9f6f8ef57/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/16d567affde1dd733c7c807f7ba173ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/16d567affde1dd733c7c807f7ba173ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/e702cd715c6cbf3a8722806ad1612afc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/e702cd715c6cbf3a8722806ad1612afc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/vadym/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/adeb0bdec4c2a36f41810e8750985be8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/vadym/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/adeb0bdec4c2a36f41810e8750985be8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/vadym/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/02545833383491f34bc117e7a46beefe/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/vadym/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/02545833383491f34bc117e7a46beefe/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/vadym/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/4fe8424f5cae64623eabe51e50d804c0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/vadym/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/4fe8424f5cae64623eabe51e50d804c0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/vadym/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/04ab2d0e3fffd52141111997b4e3e2fc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/vadym/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/04ab2d0e3fffd52141111997b4e3e2fc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/d24ebbfb34d94bbb093a5d63a77c203a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/d24ebbfb34d94bbb093a5d63a77c203a/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/bf49ca519d21458fb1d034d286493601/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/bf49ca519d21458fb1d034d286493601/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.9.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/fresco-1.9.0.aar/c45791f187ff080613fc5c11c2362c4b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.9.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/fresco-1.9.0.aar/c45791f187ff080613fc5c11c2362c4b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.9.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.9.0.aar/a101317b5025e2a0dd2eca8f151bca7d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.9.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.9.0.aar/a101317b5025e2a0dd2eca8f151bca7d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.9.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/drawee-1.9.0.aar/259c8fbea061b23c1e5a7f5b3521132b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.9.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/drawee-1.9.0.aar/259c8fbea061b23c1e5a7f5b3521132b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.9.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.9.0.aar/5306850639c4ba6fe5a1cddf8c86a577/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.9.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.9.0.aar/5306850639c4ba6fe5a1cddf8c86a577/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.9.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.9.0.aar/407459cdcc96b6bb042ee830a5ef36ba/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.9.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.9.0.aar/407459cdcc96b6bb042ee830a5ef36ba/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.3.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/soloader-0.3.0.aar/f9c82a2be49e7dda4c2c15a5507cd5bf/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.3.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/soloader-0.3.0.aar/f9c82a2be49e7dda4c2c15a5507cd5bf/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fbcore:1.9.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/fbcore-1.9.0.aar/7225ed72867676f26eb6e3cdbe0f1ff5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.9.0] /Users/vadym/.gradle/caches/transforms-1/files-1.1/fbcore-1.9.0.aar/7225ed72867676f26eb6e3cdbe0f1ff5/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:1:1-27:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:1:1-27:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/vadym/Documents/work/study/RN/tdd/android/app/src/main/AndroidManifest.xml:1:1-27:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
