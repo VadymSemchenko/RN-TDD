@@ -1,5 +1,3 @@
-// import { NEW_RESTAURANT_BUTTON, NEW_RESTAURANT_TEXT_INPUT } from '../src/constants/testIDs';
-
 const restaurantName = 'Puzata Khata';
 
 describe('Example', () => {

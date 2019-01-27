@@ -1,14 +1,20 @@
 import * as React from 'react';
 import { Button, View } from 'react-native';
-import { NEW_RESTAURANT_BUTTON, NEW_RESTAURANT_TEXT_INPUT } from '../constants/testIDs';
+import AddRestaurantModal from './AddRestaurantModal';
 
 export default class RestaurantsList extends React.Component {
+  state = {
+    addModalVisible: false,
+  };
+
   onPress = () => console.log('TEST');
 
   render() {
+    const { addModalVisible } = this.state;
     return (
       <View>
-        <Button testID={NEW_RESTAURANT_BUTTON} title="Button" onPress={this.onPress} />
+        <Button testID="NewRestaurantButton" title="Button" onPress={this.onPress} />
+        <AddRestaurantModal visible={addModalVisible} />
       </View>
     );
   }
