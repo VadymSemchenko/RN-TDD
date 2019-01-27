@@ -5,6 +5,7 @@
   "rules": {
     "prettier/prettier": ["error"],
     "react/prefer-stateless-function": false,
+    "import/no-extraneous-dependencies": false,
     "react/jsx-filename-extension": [
       1,
       {
