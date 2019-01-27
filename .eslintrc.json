@@ -6,6 +6,7 @@
     "prettier/prettier": ["error"],
     "react/prefer-stateless-function": false,
     "import/no-extraneous-dependencies": false,
+    "react/no-unused-prop-types": false,
     "react/jsx-filename-extension": [
       1,
       {
