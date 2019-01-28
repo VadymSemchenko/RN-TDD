@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>9F93F519-4AB2-41CC-A75C-C96DD35362AC</key>
+		<key>AA414043-9314-4BB5-AEE5-24B38E72D2CC</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,9 +15,9 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>9F93F519-4AB2-41CC-A75C-C96DD35362AC.xcactivitylog</string>
+			<string>AA414043-9314-4BB5-AEE5-24B38E72D2CC.xcactivitylog</string>
 			<key>highLevelStatus</key>
-			<string>S</string>
+			<string>E</string>
 			<key>schemeIdentifier-containerName</key>
 			<string>tdd project</string>
 			<key>schemeIdentifier-schemeName</key>
@@ -27,13 +27,13 @@
 			<key>signature</key>
 			<string>Building project tdd with scheme tdd and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>570296246.19116998</real>
+			<real>570311395.17627704</real>
 			<key>timeStoppedRecording</key>
-			<real>570296254.060763</real>
+			<real>570311423.94685805</real>
 			<key>title</key>
 			<string>Building project tdd with scheme tdd and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>9F93F519-4AB2-41CC-A75C-C96DD35362AC</string>
+			<string>AA414043-9314-4BB5-AEE5-24B38E72D2CC</string>
 		</dict>
 	</dict>
 </dict>

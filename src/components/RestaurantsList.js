@@ -1,20 +1,28 @@
-import * as React from 'react';
+import React, { Component } from 'react';
 import { Button, View } from 'react-native';
 import AddRestaurantModal from './AddRestaurantModal';
-import { always } from 'ramda';
+import R from 'ramda';
 
-export default class RestaurantsList extends React.Component {
+export default class RestaurantsList extends Component {
   state = {
     addModalVisible: false,
   };
 
-  onPress = always(null);
+  showAddRestaurantModal = () =>
+    R.not(this.state.addModalVisible) &&
+    this.setState({
+      addModalVisible: true,
+    });
 
   render() {
     const { addModalVisible } = this.state;
     return (
       <View>
-        <Button testID="NewRestaurantButton" title="Button" onPress={this.onPress} />
+        <Button
+          testID="NewRestaurantButton"
+          title="Add Restaurant"
+          onPress={this.showAddRestaurantModal}
+        />
         <AddRestaurantModal visible={addModalVisible} />
       </View>
     );

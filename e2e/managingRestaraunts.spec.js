@@ -6,8 +6,8 @@ describe('Example', () => {
   });
 
   it('should allow creating a restataunt', async () => {
-    await element(by.id('NewRestaurantTextInput')).typeText(restaurantName);
     await element(by.id('NewRestaurantButton')).tap();
+    await element(by.id('NewRestaurantTextInput')).typeText(restaurantName);
     await expect(element(by.label(restaurantName))).toBeVisible();
     await expect(element(by.id('NewRetsaurantTextInput'))).toBeNotVisible();
   });

@@ -1,12 +1,15 @@
-/* eslint-env detox/detox, jest */
-
 import React from 'react';
-import { Text } from 'react-native';
 import { shallow } from 'enzyme';
+import AddRestaurantModal from '../../components/AddRestaurantModal';
 
 describe('Text', () => {
-  it('renders text', () => {
-    const wrapper = shallow(<Text>Hello</Text>);
-    expect(wrapper.text()).toEqual('Hello');
+  const messageText = 'Test Text';
+  const testID = id => cmp => cmp.props().testID === id;
+  it('calls the onSave handler with the entered text', () => {
+    const handleSave = jest.fn();
+    const wrapper = shallow(<AddRestaurantModal onSave={handleSave} />);
+    wrapper.findWhere(testID('restaurantNameTextField')).simulate('changeText', messageText);
+    wrapper.findWhere(testID(testID('saveRestaurant'))).simulate('press');
+    expect(handleSave).toHaveBeenCalledWith(messageText);
   });
 });
