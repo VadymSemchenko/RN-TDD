@@ -1,21 +1,23 @@
 import React, { Component } from 'react';
 import { View, TextInput, Button } from 'react-native';
-import { bool } from 'prop-types';
+import { bool, func } from 'prop-types';
 
-let Tron;
-
-if (__DEV__) {
-  Tron = require('../../ReactotronConfig').default;
-}
+// let Tron;
+// if (__DEV__ === true) {
+//   Tron = require('../../ReactotronConfig').default;
+// }
 
 export default class AddRestaurantModal extends Component {
   static propTypes = {
     visible: bool.isRequired,
+    handleSaveButtonPress: func.isRequired,
+  };
+
+  state = {
+    restaurantName: '',
   };
 
   render() {
-    // const visibleLens = R.lensProp('visible');
-    // const visible = R.view(visibleLens, this.props);
     const { visible } = this.props;
     return visible ? (
       <View>
@@ -23,9 +25,18 @@ export default class AddRestaurantModal extends Component {
           testID="NewRestaurantTextInput"
           placeholder="RestaurantName"
           autoCorrect={false}
+          onChangeText={this.handleChangeText}
         />
-        <Button testID="SaveRestaurantButton" title="Save Restaurant" />
+        <Button testID="SaveRestaurantButton" title="Save Restaurant" onPress={this.handleSave} />
       </View>
     ) : null;
   }
+
+  handleChangeText = restaurantName => this.setState({ restaurantName });
+
+  handleSave = () => {
+    const { handleSaveButtonPress } = this.props;
+    const { restaurantName } = this.state;
+    handleSaveButtonPress(restaurantName);
+  };
 }

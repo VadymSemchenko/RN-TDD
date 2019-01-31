@@ -3,7 +3,8 @@
   "parser": "babel-eslint",
   "plugins": ["prettier", "detox", "jest"],
   "globals": {
-    "__DEV__": false
+    "__DEV__": false,
+    "test": false
   },
   "rules": {
     "global-require": "off",

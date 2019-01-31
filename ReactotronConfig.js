@@ -1,8 +1,12 @@
 import Reactotron from 'reactotron-react-native';
-import DeviceInfo from 'react-native-device-info';
+let Tron;
+let DeviceInfo;
 
-const Tron = Reactotron.configure(DeviceInfo.isEmulator() ? {} : { host: '192.168.2.10' })
-  .useReactNative()
-  .connect();
+if (__DEV__) {
+  DeviceInfo = require('react-native-device-info');
+  Tron = Reactotron.configure(DeviceInfo.isEmulator() ? {} : { host: '192.168.2.10' })
+    .useReactNative()
+    .connect();
+}
 
 export default Tron;

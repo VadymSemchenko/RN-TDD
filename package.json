@@ -4,12 +4,13 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android",
-    "ios": "react-native run-ios",
+    "ios": "react-native run-ios --simulator='iPhone SE' ",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest src/tests/**/*.spec.js",
     "detox-android": "concurrently \"yarn:start\" \"detox test -c android.emu.debug && killall node\"",
     "detox-ios": "concurrently \"yarn:start\" \"detox test -c ios.sim.debug && killall node\"",
-    "es-lint": "eslint src/**/*.js"
+    "es-lint": "eslint src/**/*.js",
+    "clear": "rm -rf $TMPDIR/react-*; rm -rf $TMPDIR/haste-*; rm -rf $TMPDIR/metro-*; watchman watch-del-all"
   },
   "dependencies": {
     "ramda": "0.26.1",
@@ -53,6 +54,9 @@
     ],
     "transform": {
       "^.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
+    },
+    "globals": {
+      "__DEV__": false
     }
   },
   "detox": {

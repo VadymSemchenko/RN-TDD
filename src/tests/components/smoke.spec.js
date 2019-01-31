@@ -7,9 +7,11 @@ describe('Text', () => {
   const testID = id => cmp => cmp.props().testID === id;
   it('calls the onSave handler with the entered text', () => {
     const handleSave = jest.fn();
-    const wrapper = shallow(<AddRestaurantModal onSave={handleSave} />);
-    wrapper.findWhere(testID('restaurantNameTextField')).simulate('changeText', messageText);
-    wrapper.findWhere(testID(testID('saveRestaurant'))).simulate('press');
+    const wrapper = shallow(
+      <AddRestaurantModal handleSaveButtonPress={handleSave} visible={true} />,
+    );
+    wrapper.findWhere(testID('NewRestaurantTextInput')).simulate('changeText', messageText);
+    wrapper.findWhere(testID('SaveRestaurantButton')).simulate('press');
     expect(handleSave).toHaveBeenCalledWith(messageText);
   });
 });
