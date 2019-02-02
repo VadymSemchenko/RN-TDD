@@ -10,7 +10,8 @@
     "detox-android": "concurrently \"yarn:start\" \"detox test -c android.emu.debug && killall node\"",
     "detox-ios": "concurrently \"yarn:start\" \"detox test -c ios.sim.debug && killall node\"",
     "es-lint": "eslint src/**/*.js",
-    "clear": "rm -rf $TMPDIR/react-*; rm -rf $TMPDIR/haste-*; rm -rf $TMPDIR/metro-*; watchman watch-del-all"
+    "clear": "rm -rf $TMPDIR/react-*; rm -rf $TMPDIR/haste-*; rm -rf $TMPDIR/metro-*; watchman watch-del-all",
+    "clear-modules": "rm -rf node_modules yarn.lock && yarn && yarn clear"
   },
   "dependencies": {
     "ramda": "0.26.1",
