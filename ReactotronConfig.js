@@ -1,5 +1,4 @@
 import Reactotron from 'reactotron-react-native';
-let Tron;
 import DeviceInfo from 'react-native-device-info';
 import { Platform } from 'react-native';
 

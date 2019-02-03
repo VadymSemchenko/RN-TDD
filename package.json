@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "yarn clear && cd android/ && ./gradlew clean && cd .. && ENVFILE=.env.development react-native run-android",
+    "android": "yarn clear && cd android/ && ./gradlew clean && cd .. && adb reverse tcp:9090 tcp:9090 && ENVFILE=.env.development react-native run-android",
     "ios": "yarn clear && ENVFILE=.env.development react-native run-ios --simulator='iPhone SE' ",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "ENVFILE=.env.unit-test jest src/tests/**/*.spec.js",

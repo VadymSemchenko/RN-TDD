@@ -4,6 +4,6 @@
     <!-- Automatically generated file. DO NOT MODIFY -->
 
     <!-- Values from default config. -->
-    <string name="NODE_ENV" translatable="false">"UNIT-DEVELOPMENT"</string>
+    <string name="NODE_ENV" translatable="false">"DEVELOPMENT"</string>
 
 </resources>

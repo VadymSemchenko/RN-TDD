@@ -1,1 +1,1 @@
-  #define DOT_ENV @{ @"NODE_ENV":@"UNIT-DEVELOPMENT" };
+  #define DOT_ENV @{ @"NODE_ENV":@"DEVELOPMENT" };

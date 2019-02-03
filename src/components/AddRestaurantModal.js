@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { View, TextInput, Button } from 'react-native';
 import { bool, func } from 'prop-types';
 
-let Tron;
-if (__DEV__ === true) {
-  Tron = require('../../ReactotronConfig').default;
-}
+// let Tron;
+// if (__DEV__ === true) {
+//   Tron = require('../../ReactotronConfig').default;
+// }
 
 export default class AddRestaurantModal extends Component {
   static propTypes = {
