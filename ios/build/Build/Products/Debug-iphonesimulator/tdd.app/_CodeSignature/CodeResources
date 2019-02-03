@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		o7z7M0+46Dyj4kr2GTJLXT/x3D4=
+		+aKoY+mnrOZsi0SNiYl5dzxAyvU=
 		</data>
 		<key>Frameworks/XCTest.framework/Info.plist</key>
 		<data>
@@ -63,7 +63,7 @@
 		</data>
 		<key>PlugIns/tddTests.xctest/tddTests</key>
 		<data>
-		7XGBtK17gOqCdc4fXhIJYmGjJe4=
+		3ejeb3VpkOwn4bNMKGtE3ecejZ4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -72,11 +72,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			o7z7M0+46Dyj4kr2GTJLXT/x3D4=
+			+aKoY+mnrOZsi0SNiYl5dzxAyvU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Thm0U0RGEUpMMjaLR9bFLiVNUDWL8Y8jhPjBgshfhbM=
+			wRSlc1wpFgETs3L8gF4RfHwmrh2E3A6+sgZ8DsNvQBg=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/Info.plist</key>
@@ -195,11 +195,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7XGBtK17gOqCdc4fXhIJYmGjJe4=
+			3ejeb3VpkOwn4bNMKGtE3ecejZ4=
 			</data>
 			<key>hash2</key>
 			<data>
-			psV35jMacQNEhr8lhsoeyD2bMbD9McehFhLe+i4I0tQ=
+			VA0mpQ/8zOPT/ugbi/hv0C+0HSCLWJah77kuKRXhf4I=
 			</data>
 		</dict>
 	</dict>

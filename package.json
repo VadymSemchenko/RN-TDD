@@ -3,14 +3,14 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "react-native run-android",
-    "ios": "ENV=dev react-native run-ios --simulator='iPhone SE' ",
+    "android": "yarn clear && cd android/ && ./gradlew clean && cd .. && ENVFILE=.env.development react-native run-android",
+    "ios": "yarn clear && ENVFILE=.env.development react-native run-ios --simulator='iPhone SE' ",
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "ENV=test jest src/tests/**/*.spec.js",
-    "detox-android": "concurrently \"yarn:start\" \"detox test -c android.emu.debug && killall node\"",
-    "detox-ios": "concurrently \"yarn:start\" \"detox test -c ios.sim.debug && killall node\"",
+    "test": "ENVFILE=.env.unit-test jest src/tests/**/*.spec.js",
+    "detox-android": "concurrently \"yarn:start\" \"ENVFILE=.env.e2e-test detox test -c android.emu.debug && killall node\"",
+    "detox-ios": "concurrently \"yarn:start\" \"ENVFILE=.env.e2e-test detox test -c ios.sim.debug && killall node\"",
     "es-lint": "eslint src/**/*.js",
-    "clear": "rm -rf $TMPDIR/react-*; rm -rf $TMPDIR/haste-*; rm -rf $TMPDIR/metro-*; watchman watch-del-all",
+    "clear": "rm -rf $TMPDIR/react-*; rm -rf $TMPDIR/haste-*; rm -rf $TMPDIR/metro-*; watchman watch-del-all; yarn cache clean",
     "clear-modules": "rm -rf node_modules yarn.lock && yarn && yarn clear"
   },
   "dependencies": {

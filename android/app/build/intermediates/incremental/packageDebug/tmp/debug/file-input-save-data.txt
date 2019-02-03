@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Jan 27 21:55:46 EET 2019
+#Sun Feb 03 12:33:39 EET 2019
 17.baseType=DIRECTORY
 4.path=lib/armeabi-v7a/libimagepipeline.so
 25.base=/Users/vadym/Documents/work/study/RN/tdd/android/app/build/intermediates/transforms/mergeJniLibs/debug/0
