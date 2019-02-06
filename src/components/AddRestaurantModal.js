@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
 import { View, TextInput, Button } from 'react-native';
 import { bool, func } from 'prop-types';
+import R from 'ramda';
 
-// let Tron;
-// if (__DEV__ === true) {
-//   Tron = require('../../ReactotronConfig').default;
-// }
+import { SAVE_RESTAURANT_BUTTON, NEW_RESTAURANT_TEXT_INPUT } from '../../constants/testIDs';
 
 export default class AddRestaurantModal extends Component {
   static propTypes = {
     visible: bool.isRequired,
-    handleSaveButtonPress: func.isRequired,
+    handleSaveRestaurant: func.isRequired,
   };
 
   state = {
@@ -19,26 +17,30 @@ export default class AddRestaurantModal extends Component {
 
   render() {
     const { visible } = this.props;
+    const { restaurantName } = this.state;
     return visible ? (
       <View>
+        <Button testID={SAVE_RESTAURANT_BUTTON} title="Save Restaurant" onPress={this.handleSave} />
         <TextInput
-          testID="NewRestaurantTextInput"
+          testID={NEW_RESTAURANT_TEXT_INPUT}
           placeholder="RestaurantName"
           autoCorrect={false}
           onChangeText={this.handleChangeText}
+          value={restaurantName}
         />
-        <Button testID="SaveRestaurantButton" title="Save Restaurant" onPress={this.handleSave} />
       </View>
     ) : null;
   }
 
-  // handleAddRestaurant = () => ();
-
   handleChangeText = restaurantName => this.setState({ restaurantName });
 
   handleSave = () => {
-    const { handleSaveButtonPress } = this.props;
     const { restaurantName } = this.state;
-    handleSaveButtonPress(restaurantName);
+    if (R.not(restaurantName)) return;
+    const { handleSaveRestaurant } = this.props;
+    handleSaveRestaurant(restaurantName);
+    this.setState({
+      restaurantName: '',
+    });
   };
 }

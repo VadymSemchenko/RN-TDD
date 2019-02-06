@@ -6,7 +6,9 @@ import { DEVELOPMENT } from '../constants/environmentNames';
 import RestaurantsList from './components/RestaurantsList';
 
 const { NODE_ENV } = Config;
-if (NODE_ENV === DEVELOPMENT) {
+export const __IS_DEV__ = NODE_ENV === DEVELOPMENT;
+
+if (__IS_DEV__) {
   console.tron = require('../ReactotronConfig').default;
   console.tron.clear();
 }
