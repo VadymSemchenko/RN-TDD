@@ -13,7 +13,7 @@
     "prettier/prettier": ["error"],
     "react/prefer-stateless-function": 0,
     "import/no-extraneous-dependencies": false,
-    "react/no-unused-prop-types": false,
+    "react/no-unused-prop-types": "warn",
     "react/jsx-filename-extension": [
       1,
       {
