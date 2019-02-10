@@ -1,0 +1,5 @@
+8eb69c03ce4389f1db3ff8974e343458
+module.exports = {
+  NEW_RESTAURANT_BUTTON: 'newRestaurantButton',
+  NEW_RESTAURANT_TEXT_INPUT: 'newRestaurantTextInput',
+  SAVE_RESTAURANT_BUTTON: 'saveRestaurantButton' };

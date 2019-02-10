@@ -1,0 +1,20 @@
+d343b624fc7382c7bfdbdb16a9c3bb56
+"use strict";var _react = babelHelpers.interopRequireDefault(require("react"));
+var _enzyme = require("enzyme");
+
+var _AddRestaurantModal = babelHelpers.interopRequireDefault(require("../../components/AddRestaurantModal"));
+var _testIDs = require("../../../constants/testIDs");var _jsxFileName = "/Users/vadym/Documents/work/study/RN/tdd/src/tests/components/smoke.spec.js";
+
+describe('Text', function () {
+  var messageText = 'Test Text';
+  var testID = function testID(id) {return function (cmp) {return cmp.props().testID === id;};};
+  it('calls the onSave handler with the entered text', function () {
+    var handleSave = jest.fn();
+    var wrapper = (0, _enzyme.shallow)(
+    _react.default.createElement(_AddRestaurantModal.default, { handleSaveRestaurant: handleSave, visible: true, __source: { fileName: _jsxFileName, lineNumber: 13 } }));
+
+    wrapper.findWhere(testID('NewRestaurantTextInput')).simulate('changeText', messageText);
+    wrapper.findWhere(testID('SaveRestaurantButton')).simulate('press');
+    expect(handleSave).toHaveBeenCalledWith(messageText);
+  });
+});

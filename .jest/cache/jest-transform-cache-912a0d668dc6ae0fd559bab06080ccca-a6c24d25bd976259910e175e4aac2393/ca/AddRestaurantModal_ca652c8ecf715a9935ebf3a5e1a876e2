@@ -1,0 +1,46 @@
+97e6e8514e03365807b1e5da4cbdc978
+"use strict";Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _react = babelHelpers.interopRequireWildcard(require("react"));
+var _reactNative = require("react-native");
+var _propTypes = require("prop-types");
+var _ramda = babelHelpers.interopRequireDefault(require("ramda"));
+
+var _testIDs = require("../../constants/testIDs");var _jsxFileName = "/Users/vadym/Documents/work/study/RN/tdd/src/components/AddRestaurantModal.js";var
+
+AddRestaurantModal = function (_Component) {function AddRestaurantModal() {var _babelHelpers$getProt;var _temp, _this;babelHelpers.classCallCheck(this, AddRestaurantModal);for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {args[_key] = arguments[_key];}return babelHelpers.possibleConstructorReturn(_this, (_temp = _this = babelHelpers.possibleConstructorReturn(this, (_babelHelpers$getProt = babelHelpers.getPrototypeOf(AddRestaurantModal)).call.apply(_babelHelpers$getProt, [this].concat(args))), _this.
+
+
+
+
+
+    state = {
+      restaurantName: '' }, _this.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    handleChangeText = function (restaurantName) {return _this.setState({ restaurantName: restaurantName });}, _this.
+
+    handleSave = function () {var
+      restaurantName = _this.state.restaurantName;
+      if (_ramda.default.not(restaurantName)) return;var
+      handleSaveRestaurant = _this.props.handleSaveRestaurant;
+      handleSaveRestaurant(restaurantName);
+      _this.setState({
+        restaurantName: '' });
+
+    }, _temp));}babelHelpers.createClass(AddRestaurantModal, [{ key: "render", value: function render() {var visible = this.props.visible;var restaurantName = this.state.restaurantName;return visible ? _react.default.createElement(_reactNative.View, { __source: { fileName: _jsxFileName, lineNumber: 22 } }, _react.default.createElement(_reactNative.Button, { testID: _testIDs.SAVE_RESTAURANT_BUTTON, title: "Save Restaurant", onPress: this.handleSave, __source: { fileName: _jsxFileName, lineNumber: 23 } }), _react.default.createElement(_reactNative.TextInput, { testID: _testIDs.NEW_RESTAURANT_TEXT_INPUT, placeholder: "RestaurantName", autoCorrect: false, onChangeText: this.handleChangeText, value: restaurantName, __source: { fileName: _jsxFileName, lineNumber: 24 } })) : null;} }]);babelHelpers.inherits(AddRestaurantModal, _Component);return AddRestaurantModal;}(_react.Component);exports.default = AddRestaurantModal;AddRestaurantModal.propTypes = { visible: _propTypes.bool.isRequired, handleSaveRestaurant: _propTypes.func.isRequired };

@@ -1,0 +1,56 @@
+3a7a2e3d86ee16383905ac401f96b23c
+
+
+
+
+
+
+
+
+
+'use strict';
+
+module.exports = function (moduleName, instanceMethods) {
+  var RealComponent = require.requireActual(moduleName);
+  var React = require('react');
+
+  var SuperClass =
+  typeof RealComponent === 'function' ? RealComponent : React.Component;
+
+  var Component = function (_SuperClass) {function Component() {babelHelpers.classCallCheck(this, Component);return babelHelpers.possibleConstructorReturn(this, babelHelpers.getPrototypeOf(Component).apply(this, arguments));}babelHelpers.createClass(Component, [{ key: "render", value: function render()
+      {var _this = this;
+        var name = RealComponent.displayName || RealComponent.name;
+
+        var props = babelHelpers.extends({}, RealComponent.defaultProps);
+
+        if (this.props) {
+          Object.keys(this.props).forEach(function (prop) {
+
+
+
+
+
+            if (_this.props[prop] !== undefined) {
+              props[prop] = _this.props[prop];
+            }
+          });
+        }
+
+        return React.createElement(
+        name.replace(/^(RCT|RK)/, ''),
+        props,
+        this.props.children);
+
+      } }]);babelHelpers.inherits(Component, _SuperClass);return Component;}(SuperClass);
+
+
+  if (RealComponent.propTypes != null) {
+    Component.propTypes = RealComponent.propTypes;
+  }
+
+  if (instanceMethods != null) {
+    babelHelpers.extends(Component.prototype, instanceMethods);
+  }
+
+  return Component;
+};

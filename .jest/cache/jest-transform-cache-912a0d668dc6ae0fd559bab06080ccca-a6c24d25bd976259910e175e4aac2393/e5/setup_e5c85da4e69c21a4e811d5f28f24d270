@@ -1,0 +1,6 @@
+6d264eb876607dd37705aac2ae246342
+"use strict";var _enzyme = babelHelpers.interopRequireDefault(require("enzyme"));
+var _enzymeAdapterReact = babelHelpers.interopRequireDefault(require("enzyme-adapter-react-16"));
+
+_enzyme.default.configure({
+  adapter: new _enzymeAdapterReact.default() });
